@@ -12,11 +12,10 @@ If they are set it checks if the ID/password match.
 
 On failed authentication, it displays an error message and displays the form as above..
 
-On successful authentication of the password, it sets a session variable to store the ID, and displays a home page by redirecting to a Home servlet:
-
-Used response.sendRedirect("Home")   to do this.
+On successful authentication of the password, it sets a session variable to store the ID, and displays a home page by redirecting to a Home servlet:Used response.sendRedirect("Home")   to do this.
 
 Created a Home servlet that does the following:
+
 ---a link to a servlet that displays the course_id, title, year, semester and sec_id of courses taken by that ID, and 
 
 ---a link to a servlet that shows course_id, title and credits of all courses.
